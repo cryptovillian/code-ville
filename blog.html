@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sailor Bootstrap</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/bootstrap-icons.css" />
+    <link rel="stylesheet" href="./assets/css/animate.min.css" />
+    <link rel="stylesheet" href="./assets/css/boxicons.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./assets/css/remixicon.css" />
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.png"
+      type="image/png"
+    />
+  </head>
+  <body>
+    <div class="relative">
+      <nav
+        class="navbar navbar-expand-md w-100 bg-white shadow position-fixed"
+        style="z-index: 1"
+      >
+        <div class="container mt-2">
+          <a href="#" class="navbar-brand">
+            <h2 class="fs-3 fw-bold text-secondary">SAILOR</h2>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#Navbar"
+            aria-controls="Navbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="Navbar">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item pe-3">
+                <a href="./index.html" class="nav-link fw-bold">Home</a>
+              </li>
+              <li class="nav-item dropdown pe-3">
+                <a
+                  href="#"
+                  class="nav-link dropdown-toggle fw-bold custom-hover"
+                  data-bs-toggle="dropdown"
+                  id="aboutDropdown"
+                  >About</a
+                >
+                <ul class="dropdown-menu">
+                  <li>
+                    <a
+                      href="./about.html"
+                      class="dropdown-item fw-bold custom-hover text-secondary py-3"
+                      >About</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="./team.html"
+                      class="dropdown-item fw-bold custom-hover text-secondary py-3"
+                      >Team</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="dropdown-item fw-bold custom-hover text-secondary py-3"
+                      >Testimonials</a
+                    >
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a
+                      href="#"
+                      class="dropdown-item dropdown-toggle fw-bold custom-hover position-relative"
+                      >Deep Drop Down</a
+                    >
+                    <ul
+                      class="dropdown-menu position-absolute"
+                      style="left: -89%; top: 80%"
+                    >
+                      <li>
+                        <a
+                          href="#"
+                          class="dropdown-item fw-bold custom-hover text-secondary py-3"
+                          >Dropdown1</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          class="dropdown-item fw-bold custom-hover text-secondary py-3"
+                          >Dropdown2</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          class="dropdown-item fw-bold custom-hover text-secondary py-3"
+                          >Dropdown3</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          class="dropdown-item fw-bold custom-hover text-secondary py-3"
+                          >Dropdown4</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          class="dropdown-item fw-bold custom-hover text-secondary py-3"
+                          >Dropdown5</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item pe-3">
+                <a href="./services.html" class="nav-link fw-bold custom-hover"
+                  >Services</a
+                >
+              </li>
+              <li class="nav-item pe-3">
+                <a href="#" class="nav-link fw-bold custom-hover">Portfolio</a>
+              </li>
+              <li class="nav-item pe-3">
+                <a href="./price.html" class="nav-link fw-bold custom-hover"
+                  >Pricing</a
+                >
+              </li>
+              <li class="nav-item pe-3">
+                <a
+                  href="./blog.html"
+                  id="active"
+                  class="nav-link fw-bold custom-active custom-hover"
+                  >Blog</a
+                >
+              </li>
+              <li class="nav-item pe-3">
+                <a href="#" class="nav-link fw-bold custom-hover">Contact</a>
+              </li>
+              <li class="nav-item pe-3">
+                <a href="#" class="btn btn-danger px-4">Get Started</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="bg-light pb-2" style="padding-top: 100px">
+      <div
+        class="container d-flex flex-row justify-content-between align-items-center"
+      >
+        <div>
+          <h1 class="fw-light">Blog</h1>
+        </div>
+        <div>
+          <p class="fs-5" style="word-spacing: 10px">
+            <a href="./index.html" class="text-danger">Home </a>
+            <span>/ </span>Blog
+          </p>
+        </div>
+      </div>
+    </div>
+
+<style>
+    h2 a:hover, h5 a:hover{
+        color: #d9232d !important;
+        transition-duration: 0.3s;
+    }
+</style>
+
+
+    <section class="container mt-5">
+      <div class="row">
+        <div class="col-8 d-flex flex-column">
+            <div class="card mb-5 border-0 shadow">
+              <img src="./assets/img/blog/blog-1.jpg" class="card-img-top" alt="" />
+              <div class="card-body container">
+                <div class="card-title">
+                  <h2 class="fs-3 py-2">
+                    <a href="./blog-single.html" class="text-secondary fw-bold">
+                      Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam quia
+                    </a>
+                  </h2>
+                </div>
+                <div class="card-text">
+                  <div class="d-flex gap-5" style="font-size: 0.9rem">
+                    <div>
+                      <p>
+                        <i class="bi bi-person pe-2"></i>
+                        <a href="./blog-single.html" class="text-secondary">John Doe</a>
+                      </p>
+                    </div>
+                    <div>
+                      <p>
+                        <i class="bi bi-clock pe-2"></i>
+                        <a href="./blog-single.html" class="text-secondary">Jan 1, 2020</a>
+                      </p>
+                    </div>
+                    <div>
+                      <p>
+                        <i class="bi bi-chat-dots pe-2"></i>
+                        <a href="./blog-single.html" class="text-secondary">12 Comments</a>
+                      </p>
+                    </div>
+                  </div>
+                  <p>
+                    Similique neque nam consequuntur ad non maxime aliquam quas. Quibusdam animi praesentium.
+                    Aliquam et laboriosam eius aut nostrum quidem aliquid dicta. Et eveniet enim. Qui velit est
+                    ea dolorem doloremque deleniti aperiam unde soluta. Est cum et quod quos aut ut et sit sunt.
+                    Voluptate porro consequatur assumenda perferendis dolore.
+                  </p>
+                  <div class="d-flex justify-content-end pe-3 pb-2">
+                    <a href="#" class="btn btn-danger px-2">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+            <div class="card mb-5 border-0 shadow">
+              <img src="./assets/img/blog/blog-2.jpg" class="card-img-top" alt="" />
+              <div class="card-body container">
+                <div class="card-title">
+                  <h2 class="fs-3 py-2">
+                    <a href="./blog-single.html" class="text-secondary fw-bold">
+                      Nisi magni odit consequatur autem nulla dolorem
+                    </a>
+                  </h2>
+                </div>
+                <div class="card-text">
+                  <div class="d-flex gap-5" style="font-size: 0.9rem">
+                    <div>
+                      <p>
+                        <i class="bi bi-person pe-2"></i>
+                        <a href="./blog-single.html" class="text-secondary">John Doe</a>
+                      </p>
+                    </div>
+                    <div>
+                      <p>
+                        <i class="bi bi-clock pe-2"></i>
+                        <a href="./blog-single.html" class="text-secondary">Jan 1, 2020</a>
+                      </p>
+                    </div>
+                    <div>
+                      <p>
+                        <i class="bi bi-chat-dots pe-2"></i>
+                        <a href="./blog-single.html" class="text-secondary">12 Comments</a>
+                      </p>
+                    </div>
+                  </div>
+                  <p>
+                    Incidunt voluptate sit temporibus aperiam. Quia vitae aut sint ullam quis illum voluptatum et.
+                    Quo libero rerum voluptatem pariatur nam. Ad impedit qui officiis est in non aliquid veniam
+                    laborum. Id ipsum qui aut. Sit aliquam et quia molestias laboriosam. Tempora nam odit omnis
+                    eum corrupti qui aliquid excepturi molestiae. Facilis et sint quos sed voluptas. Maxime sed
+                    tempore enim omnis non alias odio quos distinctio.
+                  </p>
+                  <div class="d-flex justify-content-end pe-3 pb-2">
+                    <a href="#" class="btn btn-danger px-2">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+            <div class="card mb-5 border-0 shadow">
+              <img src="./assets/img/blog/blog-3.jpg" class="card-img-top" alt="" />
+              <div class="card-body container">
+                <div class="card-title">
+                  <h2 class="fs-3 py-2">
+                    <a href="./blog-single.html" class="text-secondary fw-bold">
+                      Possimus soluta ut id suscipit ea ut. In quo quia et soluta libero sit sint.
+                    </a>
+                  </h2>
+                </div>
+                <div class="card-text">
+                  <div class="d-flex gap-5" style="font-size: 0.9rem">
+                    <div>
+                      <p>
+                        <i class="bi bi-person pe-2"></i>
+                        <a href="./blog-single.html" class="text-secondary">John Doe</a>
+                      </p>
+                    </div>
+                    <div>
+                      <p>
+                        <i class="bi bi-clock pe-2"></i>
+                        <a href="./blog-single.html" class="text-secondary">Jan 1, 2020</a>
+                      </p>
+                    </div>
+                    <div>
+                      <p>
+                        <i class="bi bi-chat-dots pe-2"></i>
+                        <a href="./blog-single.html" class="text-secondary">12 Comments</a>
+                      </p>
+                    </div>
+                  </div>
+                  <p>
+                    Aut iste neque ut illum qui perspiciatis similique recusandae non. Fugit autem dolorem labore
+                    omnis et. Eum temporibus fugiat voluptate enim tenetur sunt omnis. Doloremque est saepe laborum
+                    aut. Ipsa cupiditate ex harum at recusandae nesciunt. Ut dolores velit.
+                  </p>
+                  <div class="d-flex justify-content-end pe-3 pb-2">
+                    <a href="#" class="btn btn-danger px-2">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+            <div class="card mb-5 border-0 shadow">
+              <img src="./assets/img/blog/blog-4.jpg" class="card-img-top" alt="" />
+              <div class="card-body container">
+                <div class="card-title">
+                  <h2 class="fs-3 py-2">
+                    <a href="./blog-single.html" class="text-secondary fw-bold">
+                      Non rem rerum nam cum quo minus. Dolor distinctio deleniti explicabo eius exercitationem.
+                    </a>
+                  </h2>
+                </div>
+                <div class="card-text">
+                  <div class="d-flex gap-5" style="font-size: 0.9rem">
+                    <div>
+                      <p>
+                        <i class="bi bi-person pe-2"></i>
+                        <a href="./blog-single.html" class="text-secondary">John Doe</a>
+                      </p>
+                    </div>
+                    <div>
+                      <p>
+                        <i class="bi bi-clock pe-2"></i>
+                        <a href="./blog-single.html" class="text-secondary">Jan 1, 2020</a>
+                      </p>
+                    </div>
+                    <div>
+                      <p>
+                        <i class="bi bi-chat-dots pe-2"></i>
+                        <a href="./blog-single.html" class="text-secondary">12 Comments</a>
+                      </p>
+                    </div>
+                  </div>
+                  <p>
+                    Aspernatur rerum perferendis et sint. Voluptates cupiditate voluptas atque quae. Rem veritatis
+                    rerum enim et autem. Saepe atque cum eligendi eaque iste omnis a qui. Quia sed sunt. Ea asperiores
+                    expedita et et delectus voluptates rerum. Id saepe ut itaque quod qui voluptas nobis porro rerum.
+                    Quam quia nesciunt qui aut est non omnis. Inventore occaecati et quaerat magni itaque nam voluptas.
+                    Voluptatem ducimus sint id earum ut nesciunt sed corrupti nemo.
+                  </p>
+                  <div class="d-flex justify-content-end pe-3 pb-2">
+                    <a href="#" class="btn btn-danger px-2">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+            <nav aria-label="pagination">
+              <ul class="pagination justify-content-center list-unstyled d-flex pb-2">
+                <li class="page-item">
+                  <a href="#" class="page-link">1</a>
+                </li>
+                <li class="page-item active">
+                  <a href="#" class="page-link text-bg-danger">2</a>
+                </li>
+                <li class="page-item">
+                  <a href="#" class="page-link">3</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          
+        <div class="col">
+          <div class="card border-0 shadow">
+            <div class="card-body mx-2">
+              <div class="pb-4">
+                <div class="card-title pb-1 pt-2">
+                  <h5 class="fs-5 text-secondary fw-bold">Search</h5>
+                </div>
+                <form class="input-group">
+                  <input type="text" class="form-control" />
+                  <button
+                    type="submit"
+                    class="border-0 text-bg-danger rounded-end-1"
+                    style="width: 20%"
+                  >
+                    <i class="bi bi-search"></i>
+                  </button>
+                </form>
+              </div>
+
+              <div class="card-title pb-1">
+                <h5 class="fs-5 text-secondary fw-bold">Categories</h5>
+              </div>
+              <div>
+                <ul class="list-unstyled vstack gap-2">
+                  <li>
+                    General
+                    <span class="text-secondary ps-2" style="font-size: 0.9rem"
+                      >(25)</span
+                    >
+                  </li>
+                  <li>
+                    Lifestyle
+                    <span class="text-secondary ps-2" style="font-size: 0.9rem"
+                      >(12)</span
+                    >
+                  </li>
+                  <li>
+                    Travel
+                    <span class="text-secondary ps-2" style="font-size: 0.9rem"
+                      >(5)</span
+                    >
+                  </li>
+                  <li>
+                    Design
+                    <span class="text-secondary ps-2" style="font-size: 0.9rem"
+                      >(22)</span
+                    >
+                  </li>
+                  <li>
+                    Creative
+                    <span class="text-secondary ps-2" style="font-size: 0.9rem"
+                      >(8)</span
+                    >
+                  </li>
+                  <li>
+                    Education
+                    <span class="text-secondary ps-2" style="font-size: 0.9rem"
+                      >(14)</span
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <div>
+                <div class="recent-posts">
+                    <h5 class="fs-5 text-secondary fw-bold py-3">Recent Posts</h5>
+                    <div class="post-item d-flex align-items-stretch pb-3">
+                      <div class="img-container">
+                        <img src="./assets/img/blog/blog-recent-1.jpg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="post-content d-flex flex-column justify-content-between px-3">
+                        <h5 class="" style="font-size: 0.9rem">
+                          <a href="./blog-single.html" class="text-secondary fw-bold ">Nihil blanditiis at in nihil autem</a>
+                        </h5>
+                        <p class="text-secondary fst-italic mb-0" style="font-size: 0.9rem">
+                          <a href="./blog-single.html" class="text-secondary">Jan 1, 2020</a>
+                        </p>
+                      </div>
+                    </div>
+                  
+                    <div class="post-item d-flex align-items-stretch pb-3">
+                      <div class="img-container">
+                        <img src="./assets/img/blog/blog-recent-2.jpg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="post-content d-flex flex-column justify-content-between px-3">
+                        <h5 class="text-secondary fw-bold" style="font-size: 0.9rem">
+                          <a href="./blog-single.html" class="text-secondary fw-bold">Quidem autem et impedit</a>
+                        </h5>
+                        <p class="text-secondary fst-italic mb-0" style="font-size: 0.9rem">
+                          <a href="./blog-single.html" class="text-secondary">Jan 1, 2020</a>
+                        </p>
+                      </div>
+                    </div>
+                  
+                    <div class="post-item d-flex align-items-stretch pb-3">
+                      <div class="img-container">
+                        <img src="./assets/img/blog/blog-recent-3.jpg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="post-content d-flex flex-column justify-content-between px-3">
+                        <h5 class="text-secondary fw-bold" style="font-size: 0.9rem">
+                          <a href="./blog-single.html" class="text-secondary fw-bold">Id quia et et ut maxime similique occaecati ut</a>
+                        </h5>
+                        <p class="text-secondary fst-italic mb-0" style="font-size: 0.9rem">
+                          <a href="./blog-single.html" class="text-secondary">Jan 1, 2020</a>
+                        </p>
+                      </div>
+                    </div>
+                  
+                    <div class="post-item d-flex align-items-stretch pb-3">
+                      <div class="img-container">
+                        <img src="./assets/img/blog/blog-recent-4.jpg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="post-content d-flex flex-column justify-content-between px-3">
+                        <h5 class="text-secondary fw-bold" style="font-size: 0.9rem">
+                          <a href="./blog-single.html" class="text-secondary fw-bold">Laborum corporis quo dara net para</a>
+                        </h5>
+                        <p class="text-secondary fst-italic mb-0" style="font-size: 0.9rem">
+                          <a href="./blog-single.html" class="text-secondary">Jan 1, 2020</a>
+                        </p>
+                      </div>
+                    </div>
+                  
+                    <div class="post-item d-flex align-items-stretch pb-3">
+                      <div class="img-container">
+                        <img src="./assets/img/blog/blog-recent-5.jpg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="post-content d-flex flex-column justify-content-between px-3">
+                        <h5 class="text-secondary fw-bold" style="font-size: 0.9rem">
+                          <a href="./blog-single.html" class="text-secondary fw-bold">Et dolores corrupti quae illo quod dolor</a>
+                        </h5>
+                        <p class="text-secondary fst-italic mb-0" style="font-size: 0.9rem">
+                          <a href="./blog-single.html" class="text-secondary">Jan 1, 2020</a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  
+
+                <div class="tags">
+                  <h5 class="fs-5 text-secondary fw-bold py-3">Tags</h5>
+                  <ul
+                    class="d-flex list-unstyled flex-wrap gap-3 text-secondary"
+                  >
+                    <li><a href="#" class="btn btn-danger border-0">App</a></li>
+                    <li><a href="#" class="btn btn-danger border-0">IT</a></li>
+                    <li>
+                      <a href="#" class="btn btn-danger border-0">Business</a>
+                    </li>
+                    <ul class="d-flex list-unstyled flex-wrap gap-3">
+                      <li>
+                        <a href="#" class="btn btn-danger border-0">Mac</a>
+                      </li>
+                      <li>
+                        <a href="#" class="btn btn-danger border-0">Design</a>
+                      </li>
+                      <li>
+                        <a href="#" class="btn btn-danger border-0">Office</a>
+                      </li>
+                    </ul>
+                    <li>
+                      <a href="#" class="btn btn-danger border-0">Creative</a>
+                    </li>
+                    <li>
+                      <a href="#" class="btn btn-danger border-0">Studio</a>
+                    </li>
+                    <li>
+                      <a href="#" class="btn btn-danger border-0">Smart</a>
+                    </li>
+                    <li>
+                      <a href="#" class="btn btn-danger border-0">Tips</a>
+                    </li>
+                    <li>
+                      <a href="#" class="btn btn-danger border-0">Marketing</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+        <div class="mt-4 text-white" style="background-color: #4a5562">
+          <div>
+            <div class="container-fluid p-5">
+              <div class="row">
+                <div class="col">
+                  <h2 class="pb-3 fw-bolder" style="font-size: 1.7rem">Sailor</h2>
+                  <p class="pb-3">
+                    A108 Adam Street <br />
+                    NY 535022, USA
+                  </p>
+  
+                  <span class="fw-bold"> Phone:</span> +1 5589 55488 55
+                  <p><span class="fw-bold"> Email:</span> info@example.com</p>
+                  <div class="icon pt-2">
+                    <a href="#" class="py-2 px-1 rounded-1 me-1 custom-background"
+                      ><i class="bi-twitter p-2"></i
+                    ></a>
+                    <a href="#" class="py-2 px-1 rounded-1 me-1 custom-background"
+                      ><i class="bi-facebook p-2"></i
+                    ></a>
+                    <a href="#" class="py-2 px-1 rounded-1 me-1 custom-background"
+                      ><i class="bi-instagram p-2"></i
+                    ></a>
+                    <a href="#" class="py-2 px-1 rounded-1 me-1 custom-background"
+                      ><i class="bi-skype p-2"></i
+                    ></a>
+                    <a href="#" class="py-2 px-1 rounded-1 me-1 custom-background"
+                      ><i class="bi-linkedin p-2"></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="col-2">
+                  <h2 class="pb-3 fw-bolder" style="font-size: 1.2rem">
+                    Useful Links
+                  </h2>
+  
+                  <ul class="footer-list m-0 p-0 vstack gap-3 ps-2">
+                    <li class="">
+                      <a href="#"
+                        ><i
+                          class="bi bi-chevron-right"
+                          style="font-size: 0.8rem"
+                        ></i>
+                        Home</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#"
+                        ><i
+                          class="bi bi-chevron-right"
+                          style="font-size: 0.8rem"
+                        ></i>
+                        About Us</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#"
+                        ><i
+                          class="bi bi-chevron-right"
+                          style="font-size: 0.8rem"
+                        ></i>
+                        Services</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#"
+                        ><i
+                          class="bi bi-chevron-right"
+                          style="font-size: 0.8rem"
+                        ></i>
+                        Terms Of Services</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#"
+                        ><i
+                          class="bi bi-chevron-right"
+                          style="font-size: 0.8rem"
+                        ></i>
+                        Privacy Policies</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <h2 class="pb-3 fw-bolder" style="font-size: 1.2rem">
+                    Our Services
+                  </h2>
+  
+                  <ul class="footer-list m-0 p-0 vstack gap-3">
+                    <li class="">
+                      <a href="#"
+                        ><i
+                          class="bi bi-chevron-right"
+                          style="font-size: 0.8rem"
+                        ></i>
+                        Web Design</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#"
+                        ><i
+                          class="bi bi-chevron-right"
+                          style="font-size: 0.8rem"
+                        ></i>
+  
+                        Web Development</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#"
+                        ><i
+                          class="bi bi-chevron-right"
+                          style="font-size: 0.8rem"
+                        ></i>
+                        Product Management</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#"
+                        ><i
+                          class="bi bi-chevron-right"
+                          style="font-size: 0.8rem"
+                        ></i>
+  
+                        Marketing</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#"
+                        ><i
+                          class="bi bi-chevron-right"
+                          style="font-size: 0.8rem"
+                        ></i>
+                        Graphic Design</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-4">
+                  <h2 class="pb-3 fw-bolder" style="font-size: 1.2rem">
+                    Our Newsletter
+                  </h2>
+                  <p class="pb-3">
+                    Tamen quem nulla quae legam multos aute sint culpa legam
+                    noster magna
+                  </p>
+                  <form class="input-group h-25">
+                    <input type="text" class="form-control" />
+                    <button class="btn btn-danger">Subscribe</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="text-white pb-5" style="background-color: #444f5c">
+            <div
+              class="container d-flex justify-content-center align-item-center flex-column text-center"
+            >
+              <p style="margin-top: 50px; font-size: 1.2rem">
+                &copy;Copyright <strong> Sailor</strong>. All Rights Reserved
+              </p>
+              <p style="color: rgba(255, 255, 255, 0.6)">
+                Designed by Theboyfisco
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+  </body>
+</html>

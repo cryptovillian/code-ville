@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sailor Bootstrap</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/bootstrap-icons.css" />
+    <link rel="stylesheet" href="./assets/css/animate.min.css" />
+    <link rel="stylesheet" href="./assets/css/boxicons.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./assets/css/remixicon.css" />
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.png"
+      type="image/png"
+    />
+  </head>
+  <body>
+    <div class="relative">
+      <nav
+        class="navbar navbar-expand-md w-100 bg-white shadow position-fixed"
+        style="z-index: 1"
+      >
+        <div class="container mt-2">
+          <a href="#" class="navbar-brand">
+            <h2 class="fs-3 fw-bold text-secondary">SAILOR</h2>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#Navbar"
+            aria-controls="Navbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="Navbar">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item pe-3">
+                <a href="./index.html" class="nav-link fw-bold">Home</a>
+              </li>
+              <li class="nav-item dropdown pe-3">
+                <a
+                  href="#"
+                  class="nav-link dropdown-toggle fw-bold custom-hover"
+                  data-bs-toggle="dropdown"
+                  id="aboutDropdown"
+                  >About</a
+                >
+                <ul class="dropdown-menu">
+                  <li>
+                    <a
+                      href="./about.html"
+                      class="dropdown-item fw-bold custom-hover text-secondary py-3"
+                      >About</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="./team.html"
+                      class="dropdown-item fw-bold custom-hover text-secondary py-3"
+                      >Team</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      id="active"
+                      class="dropdown-item fw-bold custom-active custom-hover text-secondary py-3"
+                      >Testimonials</a
+                    >
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a
+                      href="#"
+                      class="dropdown-item dropdown-toggle fw-bold custom-hover position-relative"
+                      >Deep Drop Down</a
+                    >
+                    <ul
+                      class="dropdown-menu position-absolute"
+                      style="left: -89%; top: 80%"
+                    >
+                      <li>
+                        <a
+                          href="#"
+                          class="dropdown-item fw-bold custom-hover text-secondary py-3"
+                          >Dropdown1</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          class="dropdown-item fw-bold custom-hover text-secondary py-3"
+                          >Dropdown2</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          class="dropdown-item fw-bold custom-hover text-secondary py-3"
+                          >Dropdown3</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          class="dropdown-item fw-bold custom-hover text-secondary py-3"
+                          >Dropdown4</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          class="dropdown-item fw-bold custom-hover text-secondary py-3"
+                          >Dropdown5</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item pe-3">
+                <a href="./services.html" class="nav-link fw-bold custom-hover"
+                  >Services</a
+                >
+              </li>
+              <li class="nav-item pe-3">
+                <a href="#" class="nav-link fw-bold custom-hover">Portfolio</a>
+              </li>
+              <li class="nav-item pe-3">
+                <a href="./price.html" class="nav-link fw-bold custom-hover"
+                  >Pricing</a
+                >
+              </li>
+              <li class="nav-item pe-3">
+                <a href="./blog.html" class="nav-link fw-bold custom-hover"
+                  >Blog</a
+                >
+              </li>
+              <li class="nav-item pe-3">
+                <a href="#" class="nav-link fw-bold custom-hover">Contact</a>
+              </li>
+              <li class="nav-item pe-3">
+                <a href="#" class="btn btn-danger px-4">Get Started</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="bg-light pb-2" style="padding-top: 100px">
+      <div
+        class="container d-flex flex-row justify-content-between align-items-center"
+      >
+        <div>
+          <h1 class="fw-light">Testimonials</h1>
+        </div>
+        <div>
+          <p class="fs-5" style="word-spacing: 10px">
+            <a href="./index.html" class="text-danger">Home </a>
+            <span>/ </span>Testimonials
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <section>
+      <div class="m-5 pb-5 pt-5">
+        <div class="row d-flex justify-content-between hstack g-5 pb-5">
+          <div class="col-6">
+            <div class="card border-0 shadow">
+              <div class="card-body py-5">
+                <div class="card-title float-start align-item-center d-flex">
+                  <div class="me-3" style="width: 100px">
+                    <img
+                      src="./assets/img/testimonials/testimonials-1.jpg"
+                      class="img-fluid rounded-circle"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="card-text">
+                  <div class="pb-4">
+                    <h5 class="fw-bolder fs-5">Saul Goodman</h5>
+                    <h6
+                      class="text-secondary"
+                      style="font-size: 1.1rem; font-weight: 500"
+                    >
+                      Ceo & Founder
+                    </h6>
+                  </div>
+                  <div class="">
+                    <p
+                      class="fst-italic fw-semi-bold"
+                      style="font-size: 1.2rem"
+                    >
+                      <i
+                        class="bx bxs-quote-alt-left quote-icon-left pe-2 custom-boxicon"
+                      ></i>
+                      Proin iaculis purus consequat sem cure digni ssim donec
+                      porttitora entum suscipit rhoncus. Accusantium quam,
+                      ultricies eget id, aliquam eget nibh et. Maecen aliquam,
+                      risus at semper.<i
+                        class="bx bxs-quote-alt-right quote-icon-right ps-2 custom-boxicon"
+                      ></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6">
+            <div class="card border-0 shadow">
+              <div class="card-body py-5">
+                <div class="card-title float-start align-item-center d-flex">
+                  <div class="me-3" style="width: 100px">
+                    <img
+                      src="./assets/img/testimonials/testimonials-2.jpg"
+                      class="img-fluid rounded-circle"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="card-text">
+                  <div class="pb-4">
+                    <h5 class="fw-bolder fs-5">Sara Wilsson</h5>
+                    <h6
+                      class="text-secondary"
+                      style="font-size: 1.1rem; font-weight: 500"
+                    >
+                      Designer
+                    </h6>
+                  </div>
+                  <div class="">
+                    <p
+                      class="fst-italic fw-semi-bold"
+                      style="font-size: 1.2rem"
+                    >
+                      <i
+                        class="bx bxs-quote-alt-left quote-icon-left pe-2 custom-boxicon"
+                      ></i>
+                      Export tempor illum tamen malis malis eram quae irure esse
+                      labore quem cillum quid cillum eram malis quorum velit
+                      fore eram velit sunt aliqua noster fugiat irure amet legam
+                      anim culpa.<i
+                        class="bx bxs-quote-alt-right quote-icon-right ps-2 custom-boxicon"
+                      ></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-between hstack g-5 pb-5">
+          <div class="col-6">
+            <div class="card border-0 shadow">
+              <div class="card-body py-5">
+                <div class="card-title float-start align-item-center d-flex">
+                  <div class="me-3" style="width: 100px">
+                    <img
+                      src="./assets/img/testimonials/testimonials-3.jpg"
+                      class="img-fluid rounded-circle"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="card-text">
+                  <div class="pb-4">
+                    <h5 class="fw-bolder fs-5">Jena Karlis</h5>
+                    <h6
+                      class="text-secondary"
+                      style="font-size: 1.1rem; font-weight: 500"
+                    >
+                      Store Owner
+                    </h6>
+                  </div>
+                  <div class="">
+                    <p
+                      class="fst-italic fw-semi-bold"
+                      style="font-size: 1.2rem"
+                    >
+                      <i
+                        class="bx bxs-quote-alt-left quote-icon-left pe-2 custom-boxicon"
+                      ></i>
+                      Enim nisi quem export duis labore cillum quae magna enim
+                      sint quorum nulla quem veniam duis minim tempor labore
+                      quem eram duis noster aute amet eram fore quis sint
+                      minim.<i
+                        class="bx bxs-quote-alt-right quote-icon-right ps-2 custom-boxicon"
+                      ></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="card border-0 shadow">
+              <div class="card-body py-5">
+                <div class="card-title float-start align-item-center d-flex">
+                  <div class="me-3" style="width: 100px">
+                    <img
+                      src="./assets/img/testimonials/testimonials-4.jpg"
+                      class="img-fluid rounded-circle"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="card-text">
+                  <div class="pb-4">
+                    <h5 class="fw-bolder fs-5">Matt Brandon</h5>
+                    <h6
+                      class="text-secondary"
+                      style="font-size: 1.1rem; font-weight: 500"
+                    >
+                      Freelancer
+                    </h6>
+                  </div>
+                  <div class="">
+                    <p
+                      class="fst-italic fw-semi-bold"
+                      style="font-size: 1.2rem"
+                    >
+                      <i
+                        class="bx bxs-quote-alt-left quote-icon-left pe-2 custom-boxicon"
+                      ></i>
+                      Fugiat enim eram quae cillum dolore dolor amet nulla culpa
+                      multos export minim fugiat minim velit minim dolor enim
+                      duis veniam ipsum anim magna sunt elit fore quem dolore
+                      labore illum veniam.<i
+                        class="bx bxs-quote-alt-right quote-icon-right ps-2 custom-boxicon"
+                      ></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-between hstack g-5 pb-5">
+          <div class="col-6">
+            <div class="card border-0 shadow">
+              <div class="card-body py-5">
+                <div class="card-title float-start align-item-center d-flex">
+                  <div class="me-3" style="width: 100px">
+                    <img
+                      src="./assets/img/testimonials/testimonials-5.jpg"
+                      class="img-fluid rounded-circle"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="card-text">
+                  <div class="pb-4">
+                    <h5 class="fw-bolder fs-5">John Larson</h5>
+                    <h6
+                      class="text-secondary"
+                      style="font-size: 1.1rem; font-weight: 500"
+                    >
+                      Entrepreneur
+                    </h6>
+                  </div>
+                  <div class="">
+                    <p
+                      class="fst-italic fw-semi-bold"
+                      style="font-size: 1.2rem"
+                    >
+                      <i
+                        class="bx bxs-quote-alt-left quote-icon-left pe-2 custom-boxicon"
+                      ></i>
+                      Quis quorum aliqua sint quem legam fore sunt eram irure
+                      aliqua veniam tempor noster veniam enim culpa labore duis
+                      sunt culpa nulla illum cillum fugiat legam esse veniam
+                      culpa fore nisi cillum quid.
+                      <i
+                        class="bx bxs-quote-alt-right quote-icon-right ps-2 custom-boxicon"
+                      ></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="card border-0 shadow">
+              <div class="card-body py-5">
+                <div class="card-title float-start align-item-center d-flex">
+                  <div class="me-3" style="width: 100px">
+                    <img
+                      src="./assets/img/testimonials/testimonials-6.jpg"
+                      class="img-fluid rounded-circle"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="card-text">
+                  <div class="pb-4">
+                    <h5 class="fw-bolder fs-5">Emily Harison</h5>
+                    <h6
+                      class="text-secondary"
+                      style="font-size: 1.1rem; font-weight: 500"
+                    >
+                      Store Owner
+                    </h6>
+                  </div>
+                  <div class="">
+                    <p
+                      class="fst-italic fw-semi-bold"
+                      style="font-size: 1.2rem"
+                    >
+                      <i
+                        class="bx bxs-quote-alt-left quote-icon-left pe-2 custom-boxicon"
+                      ></i>
+                      Eius ipsam praesentium dolor quaerat inventore rerum odio.
+                      Quos laudantium adipisci eius. Accusamus qui iste
+                      cupiditate sed temporibus est aspernatur. Sequi officiis
+                      ea et quia quidem.
+                      <i
+                        class="bx bxs-quote-alt-right quote-icon-right ps-2 custom-boxicon"
+                      ></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="mt-4 text-white" style="background-color: #4a5562">
+        <div>
+          <div class="container-fluid p-5">
+            <div class="row">
+              <div class="col">
+                <h2 class="pb-3 fw-bolder" style="font-size: 1.7rem">Sailor</h2>
+                <p class="pb-3">
+                  A108 Adam Street <br />
+                  NY 535022, USA
+                </p>
+
+                <span class="fw-bold"> Phone:</span> +1 5589 55488 55
+                <p><span class="fw-bold"> Email:</span> info@example.com</p>
+                <div class="icon pt-2">
+                  <a href="#" class="py-2 px-1 rounded-1 me-1 custom-background"
+                    ><i class="bi-twitter p-2"></i
+                  ></a>
+                  <a href="#" class="py-2 px-1 rounded-1 me-1 custom-background"
+                    ><i class="bi-facebook p-2"></i
+                  ></a>
+                  <a href="#" class="py-2 px-1 rounded-1 me-1 custom-background"
+                    ><i class="bi-instagram p-2"></i
+                  ></a>
+                  <a href="#" class="py-2 px-1 rounded-1 me-1 custom-background"
+                    ><i class="bi-skype p-2"></i
+                  ></a>
+                  <a href="#" class="py-2 px-1 rounded-1 me-1 custom-background"
+                    ><i class="bi-linkedin p-2"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="col-2">
+                <h2 class="pb-3 fw-bolder" style="font-size: 1.2rem">
+                  Useful Links
+                </h2>
+
+                <ul class="footer-list m-0 p-0 vstack gap-3 ps-2">
+                  <li class="">
+                    <a href="#"
+                      ><i
+                        class="bi bi-chevron-right"
+                        style="font-size: 0.8rem"
+                      ></i>
+                      Home</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#"
+                      ><i
+                        class="bi bi-chevron-right"
+                        style="font-size: 0.8rem"
+                      ></i>
+                      About Us</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#"
+                      ><i
+                        class="bi bi-chevron-right"
+                        style="font-size: 0.8rem"
+                      ></i>
+                      Services</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#"
+                      ><i
+                        class="bi bi-chevron-right"
+                        style="font-size: 0.8rem"
+                      ></i>
+                      Terms Of Services</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#"
+                      ><i
+                        class="bi bi-chevron-right"
+                        style="font-size: 0.8rem"
+                      ></i>
+                      Privacy Policies</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="col">
+                <h2 class="pb-3 fw-bolder" style="font-size: 1.2rem">
+                  Our Services
+                </h2>
+
+                <ul class="footer-list m-0 p-0 vstack gap-3">
+                  <li class="">
+                    <a href="#"
+                      ><i
+                        class="bi bi-chevron-right"
+                        style="font-size: 0.8rem"
+                      ></i>
+                      Web Design</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#"
+                      ><i
+                        class="bi bi-chevron-right"
+                        style="font-size: 0.8rem"
+                      ></i>
+
+                      Web Development</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#"
+                      ><i
+                        class="bi bi-chevron-right"
+                        style="font-size: 0.8rem"
+                      ></i>
+                      Product Management</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#"
+                      ><i
+                        class="bi bi-chevron-right"
+                        style="font-size: 0.8rem"
+                      ></i>
+
+                      Marketing</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#"
+                      ><i
+                        class="bi bi-chevron-right"
+                        style="font-size: 0.8rem"
+                      ></i>
+                      Graphic Design</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="col-4">
+                <h2 class="pb-3 fw-bolder" style="font-size: 1.2rem">
+                  Our Newsletter
+                </h2>
+                <p class="pb-3">
+                  Tamen quem nulla quae legam multos aute sint culpa legam
+                  noster magna
+                </p>
+                <form class="input-group h-25">
+                  <input type="text" class="form-control" />
+                  <button class="btn btn-danger">Subscribe</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-white pb-4" style="background-color: #444f5c">
+          <div
+            class="container d-flex justify-content-center align-item-center flex-column text-center"
+          >
+            <p style="margin-top: 50px; font-size: 1.2rem">
+              &copy;Copyright <strong> Sailor</strong>. All Rights Reserved
+            </p>
+            <p style="color: rgba(255, 255, 255, 0.6)">
+              Designed by Theboyfisco
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
